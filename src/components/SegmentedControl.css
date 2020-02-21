@@ -1,0 +1,37 @@
+.segmented-control {
+  color: #36406c;
+  background-color: #f3f5f9;
+  padding: 25px;
+  padding-top: 0px;
+  text-align: left;
+  border: 1px solid lightgray;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + span {
+  background-color: white;
+  color: #36406c;
+  padding: 15px;
+}
+
+input[type="radio"] + span:hover {
+  background-color: lightgray;
+  color: #36406c;
+  padding: 15px;
+}
+
+input[type="radio"]:checked + span {
+  background-color: #36406c;
+  color: white;
+}
+
+label:first-child span {
+  border-radius: 3px 0 0 3px;
+}
+
+label:last-child span {
+  border-radius: 0 3px 3px 0;
+}
